@@ -1,31 +1,188 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>@KobutorinaHatoのポートフォリオ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@KobutorinaHato ポートフォリオサイト</title>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+    <style>
+    </style>
 </head>
-
 <body>
-<header>
-<h1>@KobutorinaHato ポートフォリオ</h1>
-<nav>
-<ul>
-<li>
-<p></p>
-</li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
-</nav>
-</header>
-<main>
-<section></section>
-</main>
-<footer></footer>
 
 
+    <style>
+    .background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    .box {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    }
+    </style>
+
+    <div class="container">
+    <div class="box">
+        <h1>@KobutorinaHato ポートフォリオ</h1>
+        <p><a href="https://tipsy.github.io/bubbly-bg/">Website</a></p>
+    </div>
+    </div>
+    <img src="https://placehold.jp/150x150.png" alt="" class="about__image">
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+
+    <script>
+        var particles = Particles.init({
+            selector: '.background',
+        sizeVariations: 10,
+        color: ['#00bbdd', '#404B69', '#DBEDF3'],
+        connectParticles: true
+        });
+    </script>
+
+
+
+    <header>
+        <h1 class="logo">@KobutorinaHato ポートフォリオ</h1>
+        <nav class="gnav">
+            <ul>
+                <li>About</li>
+                <li>Skill</li>
+                <li>Works</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            
+            <section class="about">
+                <h1>about</h1>
+                <div class="flexbox">
+                <h2>@KobutorinaHatoについて</h2>
+                <img src="https://placehold.jp/150x150.png" alt="" class="about__image">
+                <p class="about__text">はじめまして。昭和60年生まれの32歳のエンジニアの「小太りな鳩（@KobutorinaHato）」です。アニメーションの専門学校卒業。商業アニメーションの制作進行として働いたあとWeb業界へ転職し早10年。ディレクターやコーディング業務を主に行ってきました。コーディングだけではなく、大規模サイトの運用案件やナレッジの収集・周知、ワークフローの改善提案など細かい運用業務全般の作業を行ってきました。</p>
+                </div>
+            </section>
+
+            <section class="skill">
+                <div>
+                    ディレクション
+                </div>
+                <div>
+                    コーディング
+                </div>
+                <div>
+                    ナレッジ・マネジメント
+                </div>
+                <button>詳しいスキルセットはこちら</button>
+                <div>
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd></dd>
+                        <dt>CSS/SASS</dt>
+                        <dd></dd>
+                        <dt>JS</dt>
+                        <dd></dd>
+                        <dt>サーバー</dt>
+                        <dd></dd>
+                        <dt>デザインソフト</dt>
+                        <dd>Photoshop/Illustrator</dd>
+                        <dt>エディタ</dt>
+                        <dd>Dreamweaver・VisualStudioCode</dd>
+                        <dt>動画関連</dt>
+                        <dd>After Effects/Premier</dd>
+                        <dt>Office系ソフト</dt>
+                        <dd></dd>
+                        <dt>Adobe XD</dt>
+                        <dd></dd>
+                        <dt>バージョン管理</dt>
+                        <dd></dd>
+                        <dt>バグ・チケット管理</dt>
+                        <dd></dd>
+                    </dl>
+                </div>
+            </section>
+
+            <section class="works">
+                <div class="card">
+                    <img src="https://placehold.jp/150x150.png" alt="" class="card__image">
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima cum, officia dolorum eos laudantium recusandae nesciunt facere rem. Quae.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.jp/150x150.png" alt="" class="card__image">
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima cum, officia dolorum eos laudantium recusandae nesciunt facere rem. Quae.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.jp/150x150.png" alt="" class="card__image">
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima cum, officia dolorum eos laudantium recusandae nesciunt facere rem. Quae.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.jp/150x150.png" alt="" class="card__image">
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe minima cum, officia dolorum eos laudantium recusandae nesciunt facere rem. Quae.</p>
+                </div>
+                <p><a href="#" class="moreLink">もっとみる</a></p>
+            </section>
+
+            <section class="contact">
+                <!-- class, action, methodを変更しないでください -->
+                <form class="formrun" action="https://form.run/api/v1/r/37cizqzndtjzies1at7wx8dk" method="post">
+                    <!-- ↓自由に要素を追加・編集することができます -->
+                    <div>
+                    <label>お名前</label>
+                    <input name="お名前" type="text">
+                    </div>
+                
+                    <div>
+                    <label>メールアドレス [必須]</label>
+                    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                    </div>
+                
+                    <div>
+                    <label>お問い合わせ [必須]</label>
+                    <textarea name="お問い合わせ" data-formrun-required></textarea>
+                    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                    </div>
+                
+                    <div>
+                    <label>個人情報利用同意 [必須]</label>
+                    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+                    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
+                    </div>
+                
+                    <!-- ボット投稿をブロックするためのタグ -->
+                    <div class="_formrun_gotcha">
+                    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                    </div>
+                
+                    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="social">
+
+        </div>
+        <p>@KobutorinaHatoポートフォリオ</p>
+    </footer>
 </body>
 </html>
